@@ -7,7 +7,7 @@ and what it solves.
 Installation
 ------------
 
-Prior to packaging, make sure tinyqs in available in your local maven repo. (If this catches on, we can add it to a public repo)
+Prior to packaging, make sure tinyredis in available in your local maven repo. (If this catches on, we can add it to a public repo)
 
 Only needs to be done once unless there's a version bump for some reason (such as an async netty implementation of tinyreds or automatic sentinel failover, both of which would be awesome)
 
