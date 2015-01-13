@@ -1,5 +1,8 @@
 package co.tinyqs.tinyredis;
 
+/**
+ * A pairing between a redis LUA script and its SHA hash.
+ */
 public class ScriptSHAPair
 {   
     private final String script;

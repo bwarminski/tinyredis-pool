@@ -15,6 +15,9 @@ import co.tinyqs.tinyredis.RedisReply;
 import co.tinyqs.tinyredis.RedisSerializer;
 import co.tinyqs.tinyredis.ScriptSHAPair;
 
+/**
+ * Apache Commons Pool Object Factory that provides RedisConnections given a configuration
+ */
 public class RedisConnectionFactory implements PooledObjectFactory<RedisConnection>
 {
     private final RedisConfiguration config;

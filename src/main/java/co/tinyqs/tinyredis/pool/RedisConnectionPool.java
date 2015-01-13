@@ -11,6 +11,9 @@ import org.apache.commons.pool2.impl.GenericObjectPoolConfig;
 import co.tinyqs.tinyredis.RedisConnection;
 import co.tinyqs.tinyredis.ScriptSHAPair;
 
+/**
+ * Given a configuration, sets up an Apache Commons pool of RedisConnections
+ */
 public class RedisConnectionPool implements ObjectPool<RedisConnection>
 {
     private final ObjectPool<RedisConnection> connectionPool;

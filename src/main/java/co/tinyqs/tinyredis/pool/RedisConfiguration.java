@@ -10,6 +10,9 @@ import org.hibernate.validator.constraints.NotEmpty;
 
 import co.tinyqs.tinyredis.RedisSerializer;
 
+/**
+ * Configuration object for a redis connection pool
+ */
 public class RedisConfiguration
 {
     @Min(0)
@@ -81,6 +84,9 @@ public class RedisConfiguration
         this.port = port;
     }
     
+    /**
+     * List of serializers that will be registered with each pooled redis connection
+     */
     public List<RedisSerializer> getSerializers()
     {
         return serializers;
